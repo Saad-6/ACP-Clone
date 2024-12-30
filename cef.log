@@ -1,0 +1,167 @@
+[1230/203533.948:VERBOSE1:pref_proxy_config_tracker_impl.cc(187)] 000007A8000D4600: set chrome proxy config service to 000007A8000BC380
+[1230/203533.958:VERBOSE1:webrtc_internals.cc(120)] Could not get the download directory.
+[1230/203533.958:VERBOSE1:media_stream_manager.cc(1113)] MSM::InitializeMaybeAsync([this=000007A800055680])
+[1230/203533.959:VERBOSE1:media_stream_manager.cc(1113)] MDM::MediaDevicesManager()
+[1230/203533.959:VERBOSE1:media_stream_manager.cc(1113)] MSM::MediaStreamManager([this=000007A800055680]))
+[1230/203533.973:VERBOSE1:first_party_sets_handler_impl.cc(262)] Empty path. Failed initializing First-Party Sets database.
+[1230/203534.053:ERROR:gpu_init.cc(523)] Passthrough is not supported, GL is disabled, ANGLE is 
+[1230/203534.225:VERBOSE1:configured_proxy_resolution_service.cc(1095)] Failed configuring with PAC script, falling-back to manual proxy servers.
+[1230/203534.929:VERBOSE1:pref_proxy_config_tracker_impl.cc(187)] 000007A8000D7300: set chrome proxy config service to 000007A8001D80C0
+[1230/203534.956:VERBOSE1:configured_proxy_resolution_service.cc(1095)] Failed configuring with PAC script, falling-back to manual proxy servers.
+[1230/203534.987:INFO:cpu_info.cc(53)] Available number of cores: 4
+[1230/203535.012:VERBOSE1:frame_impl.cc(503)] frame 21474836481 [5,1] connection request (reason=RENDER_FRAME_CREATED)
+[1230/203535.012:VERBOSE1:frame_host_impl.cc(659)] frame 21474836481 [5,1] (main) connected
+[1230/203535.013:VERBOSE1:media_stream_manager.cc(1113)] RFAOSF::Core() [process_id=5, frame_id=1]
+[1230/203535.022:VERBOSE1:script_context.cc(206)] Created context:
+  extension id:           (none)
+  frame:                  000006370020CF90
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[1230/203535.022:VERBOSE1:script_context.cc(206)] Created context:
+  extension id:           (none)
+  frame:                  0000000000000000
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[1230/203535.023:VERBOSE1:dispatcher.cc(452)] Num tracked contexts: 1
+[1230/203535.024:INFO:cpu_info.cc(53)] Available number of cores: 4
+[1230/203535.028:WARNING:task_impl.cc(20)] No task runner for threadId 6
+[1230/203535.054:WARNING:task_impl.cc(20)] No task runner for threadId 6
+[1230/203535.123:VERBOSE1:frame_host_impl.cc(492)] frame 21474836481 [5,1] (main) detached (reason=NEW_MAIN_FRAME, is_connected=1)
+[1230/203545.686:VERBOSE1:pref_proxy_config_tracker_impl.cc(187)] 000007A8000D7900: set chrome proxy config service to 000007A8000BD180
+[1230/203545.697:VERBOSE1:configured_proxy_resolution_service.cc(1095)] Failed configuring with PAC script, falling-back to manual proxy servers.
+[1230/203545.732:INFO:cpu_info.cc(53)] Available number of cores: 4
+[1230/203545.753:VERBOSE1:frame_impl.cc(503)] frame 30064771073 [7,1] connection request (reason=RENDER_FRAME_CREATED)
+[1230/203545.753:VERBOSE1:frame_host_impl.cc(659)] frame 30064771073 [7,1] (main) connected
+[1230/203545.753:VERBOSE1:media_stream_manager.cc(1113)] RFAOSF::Core() [process_id=7, frame_id=1]
+[1230/203545.757:INFO:cpu_info.cc(53)] Available number of cores: 4
+[1230/203545.760:VERBOSE1:script_context.cc(206)] Created context:
+  extension id:           (none)
+  frame:                  0000007D0020CF90
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[1230/203545.760:VERBOSE1:script_context.cc(206)] Created context:
+  extension id:           (none)
+  frame:                  0000000000000000
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[1230/203545.760:VERBOSE1:dispatcher.cc(452)] Num tracked contexts: 1
+[1230/203545.764:WARNING:task_impl.cc(20)] No task runner for threadId 6
+[1230/203545.797:WARNING:task_impl.cc(20)] No task runner for threadId 6
+[1230/203545.868:VERBOSE1:frame_host_impl.cc(492)] frame 30064771073 [7,1] (main) detached (reason=NEW_MAIN_FRAME, is_connected=1)
+[1230/203551.918:VERBOSE1:statistics_recorder.cc(452)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  -O                                                                        (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: LocalStorageContext.ShutDown.MaybeDroppedChanges recorded 2 samples, mean = 0.0
+0  --O                                                                       (2 = 100.0%)
+1  ... 
+
+Histogram: Memory.PartitionAlloc.MemoryReclaim recorded 4 samples, mean = 16.2 (flags = 0x1)
+0   ... 
+9   -O                                                                        (1 = 25.0%) {0.0%}
+12  -O                                                                        (1 = 25.0%) {25.0%}
+16  --O                                                                       (2 = 50.0%) {50.0%}
+21  ... 
+
+Histogram: Memory.PartitionAlloc.PeriodicPurge recorded 3 samples, mean = 36.7 (flags = 0x1)
+0   ... 
+16  -O                                                                        (1 = 33.3%) {0.0%}
+21  O                                                                         (0 = 0.0%) {33.3%}
+28  -O                                                                        (1 = 33.3%) {33.3%}
+37  O                                                                         (0 = 0.0%) {66.7%}
+49  -O                                                                        (1 = 33.3%) {66.7%}
+65  ... 
+
+Histogram: SessionStorageContext.CommitResult recorded 6 samples, mean = 0.0 (flags = 0x1)
+0  ------O                                                                   (6 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  -O                                                                        (1 = 100.0%)
+1  ... 
+
+
+[1230/203610.741:VERBOSE1:pref_proxy_config_tracker_impl.cc(187)] 000007F4000D4600: set chrome proxy config service to 000007F4000BC380
+[1230/203610.748:VERBOSE1:webrtc_internals.cc(120)] Could not get the download directory.
+[1230/203610.748:VERBOSE1:media_stream_manager.cc(1113)] MSM::InitializeMaybeAsync([this=000007F400049680])
+[1230/203610.748:VERBOSE1:media_stream_manager.cc(1113)] MDM::MediaDevicesManager()
+[1230/203610.748:VERBOSE1:media_stream_manager.cc(1113)] MSM::MediaStreamManager([this=000007F400049680]))
+[1230/203610.759:VERBOSE1:first_party_sets_handler_impl.cc(262)] Empty path. Failed initializing First-Party Sets database.
+[1230/203610.803:ERROR:gpu_init.cc(523)] Passthrough is not supported, GL is disabled, ANGLE is 
+[1230/203610.866:VERBOSE1:configured_proxy_resolution_service.cc(1095)] Failed configuring with PAC script, falling-back to manual proxy servers.
+[1230/203613.206:VERBOSE1:pref_proxy_config_tracker_impl.cc(187)] 000007F4000D7900: set chrome proxy config service to 000007F4001D8280
+[1230/203613.233:VERBOSE1:configured_proxy_resolution_service.cc(1095)] Failed configuring with PAC script, falling-back to manual proxy servers.
+[1230/203613.272:INFO:cpu_info.cc(53)] Available number of cores: 4
+[1230/203613.293:VERBOSE1:frame_impl.cc(503)] frame 21474836481 [5,1] connection request (reason=RENDER_FRAME_CREATED)
+[1230/203613.293:VERBOSE1:frame_host_impl.cc(659)] frame 21474836481 [5,1] (main) connected
+[1230/203613.293:VERBOSE1:media_stream_manager.cc(1113)] RFAOSF::Core() [process_id=5, frame_id=1]
+[1230/203613.299:INFO:cpu_info.cc(53)] Available number of cores: 4
+[1230/203613.300:VERBOSE1:script_context.cc(206)] Created context:
+  extension id:           (none)
+  frame:                  000001590020CF90
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[1230/203613.300:VERBOSE1:script_context.cc(206)] Created context:
+  extension id:           (none)
+  frame:                  0000000000000000
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[1230/203613.300:VERBOSE1:dispatcher.cc(452)] Num tracked contexts: 1
+[1230/203613.310:WARNING:task_impl.cc(20)] No task runner for threadId 6
+[1230/203613.344:WARNING:task_impl.cc(20)] No task runner for threadId 6
+[1230/203613.411:VERBOSE1:frame_host_impl.cc(492)] frame 21474836481 [5,1] (main) detached (reason=NEW_MAIN_FRAME, is_connected=1)
+[1230/203837.881:VERBOSE1:statistics_recorder.cc(452)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  -O                                                                        (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: LocalStorageContext.ShutDown.MaybeDroppedChanges recorded 1 samples, mean = 0.0
+0  -O                                                                        (1 = 100.0%)
+1  ... 
+
+Histogram: Memory.PartitionAlloc.MemoryReclaim recorded 36 samples, mean = 19.0 (flags = 0x1)
+0   ... 
+7   -O                                                                        (1 = 2.8%) {0.0%}
+9   -------O                                                                  (7 = 19.4%) {2.8%}
+12  ------O                                                                   (6 = 16.7%) {22.2%}
+16  --------O                                                                 (8 = 22.2%) {38.9%}
+21  ----------O                                                               (10 = 27.8%) {61.1%}
+28  -O                                                                        (1 = 2.8%) {88.9%}
+37  ---O                                                                      (3 = 8.3%) {91.7%}
+49  ... 
+
+Histogram: Memory.PartitionAlloc.PeriodicPurge recorded 6 samples, mean = 19.3 (flags = 0x1)
+0   ... 
+5   --O                                                                       (2 = 33.3%) {0.0%}
+7   O                                                                         (0 = 0.0%) {33.3%}
+9   -O                                                                        (1 = 16.7%) {33.3%}
+12  -O                                                                        (1 = 16.7%) {50.0%}
+16  -O                                                                        (1 = 16.7%) {66.7%}
+21  ... 
+65  -O                                                                        (1 = 16.7%) {83.3%}
+86  ... 
+
+Histogram: SessionStorageContext.CommitResult recorded 3 samples, mean = 0.0 (flags = 0x1)
+0  ---O                                                                      (3 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  -O                                                                        (1 = 100.0%)
+1  ... 
+
+

@@ -1,0 +1,438 @@
+[2024-12-30 20:35:33] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Saad\IdeaProjects\ACP_Project\ironpdfengine.log) ----------
+[2024-12-30 20:35:33] Initializing 'AppAnalytics' module
+[2024-12-30 20:35:33] Error 0x01 while validating license key
+[2024-12-30 20:35:33] Failed to create LicenseKey, returning null. Exception occurred:'Error 0x01 while validating license key'
+[2024-12-30 20:35:33] Using deployment directory 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:35:33] Creating deployment candidates using root path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\' (download: False)
+[2024-12-30 20:35:33] Creating folder deployments for win-x64
+[2024-12-30 20:35:33] Creating embedded deployments for win-x64
+[2024-12-30 20:35:33] Successfully located 'IronPdfInterop' at 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:35:33] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-12-30 20:35:33] Using deployment instructions for 'default' v
+[2024-12-30 20:35:33] Attempting to load Windows library 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronPdfInterop.dll'
+[2024-12-30 20:35:33] Attempting to load Windows library 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronPdfInterop.dll'
+[2024-12-30 20:35:33] Successfully loaded native library from 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronPdfInterop.dll'
+[2024-12-30 20:35:33] Successfully loaded 'IronPdfInterop' version '2024.11.0.6' from 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:35:33] Successfully deployed 'Pdfium' using 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:35:33] Creating new job collection resource
+[2024-12-30 20:35:33] Creating new document collection resource
+[2024-12-30 20:35:33] Successfully initialized local pdf client
+[2024-12-30 20:35:33] Initializing local Chrome client...
+[2024-12-30 20:35:33] Using deployment directory 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:35:33] Creating deployment candidates using root path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\' (download: False)
+[2024-12-30 20:35:33] Creating folder deployments for win-x64
+[2024-12-30 20:35:33] Creating embedded deployments for win-x64
+[2024-12-30 20:35:33] Successfully located 'IronInterop' at 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:35:33] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-12-30 20:35:33] Using deployment instructions for 'default' v
+[2024-12-30 20:35:33] Attempting to load Windows library 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronInterop.dll'
+[2024-12-30 20:35:33] Attempting to load Windows library 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronInterop.dll'
+[2024-12-30 20:35:33] Successfully loaded native library from 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronInterop.dll'
+[2024-12-30 20:35:33] Successfully loaded 'IronInterop' version '2024.11.0.6' from 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:35:33] Successfully deployed 'Chrome' using 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:35:33] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Saad\IdeaProjects\ACP_Project
+[2024-12-30 20:35:33] 20:35:33 (2512): ~ Chrome renderer v2024.11.0.6~
+[2024-12-30 20:35:33] 20:35:33 (2512): Debugging enabled for Chrome renderer using log path 'IronSoftware.ChromeRenderer.log'
+[2024-12-30 20:35:33] 20:35:33 (2512): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-12-30 20:35:33] 20:35:33 (2512): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-12-30 20:35:33] 20:35:33 (2512): IsSingleProcess: 0
+[2024-12-30 20:35:33] 20:35:33 (2512): Creating Cef proxy controller
+[2024-12-30 20:35:33] 20:35:33 (2512): Creating Cef interface
+[2024-12-30 20:35:33] 20:35:33 (2512): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-12-30 20:35:33] 20:35:33 (2512): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-12-30 20:35:33] 20:35:33 (2512): Destroying Cef proxy event handler
+[2024-12-30 20:35:33] 20:35:33 (2512): Initializing Cef proxy controller
+[2024-12-30 20:35:33] 20:35:33 (2512): Using subprocess path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe'
+[2024-12-30 20:35:33] 20:35:33 (2512): Using framework path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:35:33] 20:35:33 (2512): Using locales path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales'
+[2024-12-30 20:35:33] 20:35:33 (2512): Using resources path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:35:33] 20:35:33 (2512): Using root_cache_path path 'C:\Users\Saad\AppData\Local\Temp\ironceftmp7f54feb0-b6a7-4ec4-ba2d-000093b4fcbb'
+[2024-12-30 20:35:33] 20:35:33 (2512): Main process 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronPdfEngineConsole.exe'
+[2024-12-30 20:35:33] 20:35:33 (2512): gpu_mode: '0'
+[2024-12-30 20:35:33] 20:35:33 (740): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --enable-gpu-service-logging --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --lang=en-US --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data" /prefetch:2'
+[2024-12-30 20:35:33] 20:35:33 (740): gpu_mode: '0'
+[2024-12-30 20:35:33] 20:35:33 (2512): Cef initialization succeeded
+[2024-12-30 20:35:33] Successfully initialized local Chrome client
+[2024-12-30 20:35:34] 20:35:33 (740): Cef context initialized
+[2024-12-30 20:35:34] 20:35:34 (740): Registering custom scheme for rendering raw html
+[2024-12-30 20:35:34] 20:35:34 (740): Successfully registered custom scheme
+[2024-12-30 20:35:34] 20:35:34 (740): Cef engine initialization complete
+[2024-12-30 20:35:34] 20:35:34 (740): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --lang=en-US --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data" /prefetch:8'
+[2024-12-30 20:35:34] 20:35:34 (740): gpu_mode: '0'
+[2024-12-30 20:35:34] 20:35:34 (3792): PdfDocumentFactory created document 0000015DFEE3BCE0 from 37804 bytes
+[2024-12-30 20:35:34] 20:35:34 (3792): Document opened from vector
+[2024-12-30 20:35:34] 20:35:34 (3792): Storing new document 0
+[2024-12-30 20:35:34] Document 0 has 1 references remaining (+1)
+[2024-12-30 20:35:34] In-memory object store fetching document 4f31af42-4cff-4962-9495-272d91f915c7
+[2024-12-30 20:35:34] In-memory object store fetching document 4f31af42-4cff-4962-9495-272d91f915c7
+[2024-12-30 20:35:34] 20:35:34 (10148): Generating pdf from html
+[2024-12-30 20:35:34] 20:35:34 (10148): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+Cookies len: 0
+
+[2024-12-30 20:35:34] 20:35:34 (10148): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0, GrayScale : 0
+WaitForType: RenderDelay, Timeout: 10000, NetworkIdle duration: 500, Num allowed inflight: 0, Html Query Str: 
+Scale: 1
+Page Size Type: Custom
+Custom Page Size: 215.9x279.4
+Actual Page Size: 215.9x279.4
+Page Margin Type: 2
+Margin Top: 0, Right: 0, Bottom: 0, Left: 0
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 20
+Max Header Height: 200, Max Footer Height : 200
+
+[2024-12-30 20:35:34] 20:35:34 (10148): Created new job group 0 for new document
+[2024-12-30 20:35:34] 20:35:34 (10148): Created job group 0
+[2024-12-30 20:35:34] 20:35:34 (10148): Queuing job 0
+[2024-12-30 20:35:34] 20:35:34 (10148): Checking for browser availability (0/30)
+[2024-12-30 20:35:34] 20:35:34 (10148): Creating new browser after waiting 0 seconds
+[2024-12-30 20:35:34] 20:35:34 (740): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --lang=en-US --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data" /prefetch:8'
+[2024-12-30 20:35:34] 20:35:34 (740): gpu_mode: '0'
+[2024-12-30 20:35:34] 20:35:34 (740): Created browser id 1, 1 exist
+[2024-12-30 20:35:34] 20:35:34 (740): Browser 1 created and ready for assignment
+[2024-12-30 20:35:34] 20:35:34 (740): Assigning job 0 to browser 1
+[2024-12-30 20:35:34] 20:35:34 (740): Processing job for html content on browser 1
+[2024-12-30 20:35:34] 20:35:34 (740): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=renderer --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data"'
+[2024-12-30 20:35:34] 20:35:34 (740): gpu_mode: '0'
+[2024-12-30 20:35:34] 20:35:34 (740): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=renderer --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data"'
+[2024-12-30 20:35:34] 20:35:34 (740): gpu_mode: '0'
+[2024-12-30 20:35:34] 20:35:34 (740): Browser 1 loading state changed to 1 for url ''
+[2024-12-30 20:35:34] 20:35:34 (1900): OnBeforeResourceLoad for [internal] on browser 1
+[2024-12-30 20:35:34] 20:35:34 (1900): Creating resource handler for scheme http using url [internal] on browser 1
+[2024-12-30 20:35:34] 20:35:34 (1900): Resource response for [internal]: OK (0)
+[2024-12-30 20:35:35] 20:35:35 (740): Browser 1 status: 
+[2024-12-30 20:35:35] 20:35:35 (1900): OnBeforeResourceLoad for file:///C:/Users/Saad/Pictures/ACP-A3P3.PNG on browser 1
+[2024-12-30 20:35:35] 20:35:35 (1900): Created custom resource handler stream for 'file:///C:/Users/Saad/Pictures/ACP-A3P3.PNG' using path 'C:/Users/Saad/Pictures/ACP-A3P3.PNG' and mime 'image/png'
+[2024-12-30 20:35:35] 20:35:35 (740): Received IPC message 'OnBrowserCreated' from Renderer process: 'OnBrowserCreated'
+[2024-12-30 20:35:35] 20:35:35 (1900): Resource response for file:///C:/Users/Saad/Pictures/ACP-A3P3.PNG: OK (0)
+[2024-12-30 20:35:35] 20:35:35 (740): Received message from render process with 0 bytes
+[2024-12-30 20:35:35] 20:35:35 (740): [IPAER] (Browser process) message received from upstream CEF: browserId=1, message name=OnBrowserCreated
+[2024-12-30 20:35:35] 20:35:35 (740): Browser 1 loading state changed to 0 for url '[internal]'
+[2024-12-30 20:35:35] 20:35:35 (740): Frame loaded for job 0 on browser 1
+[2024-12-30 20:35:35] 20:35:35 (740): Found job 0 in group 0 (of 1 groups)
+[2024-12-30 20:35:35] 20:35:35 (740): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+[2024-12-30 20:35:35] 20:35:35 (740): Executing dev tools method 'Page.getLayoutMetrics' for browser 1
+[2024-12-30 20:35:35] 20:35:35 (740): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+[2024-12-30 20:35:35] 20:35:35 (740): Finished dev tools method on browser 1 (message ID: 1)
+[2024-12-30 20:35:35] 20:35:35 (740): Received dev tools message on browser 1: '{"id":2,"result":{"layoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"visualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"contentSize":{"x":0,"y":0,"width":1024,"height":1280},"cssLayoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"cssVisualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"cssContentSize":{"x":0,"y":0,"width":1024,"height":1280}}}' (size: 536)
+[2024-12-30 20:35:35] 20:35:35 (740): Finished dev tools method on browser 1 (message ID: 2)
+[2024-12-30 20:35:35] 20:35:35 (740): Sending DOM-visit process message for browser 1 (job ID: 0)
+[2024-12-30 20:35:35] 20:35:35 (740): Received IPC message 'OnDomVisited' from Renderer process: 'OnDomVisited'
+[2024-12-30 20:35:35] 20:35:35 (740): Received message from render process with 56 bytes
+[2024-12-30 20:35:35] 20:35:35 (740): Processed html for browser 1
+[2024-12-30 20:35:35] 20:35:35 (740): [IPAER] (Browser process) message received from upstream CEF: browserId=1, message name=OnDomVisited
+[2024-12-30 20:35:35] 20:35:35 (6464): Apply render delay for : 20 ms
+[2024-12-30 20:35:35] 20:35:35 (6464): Finished waiting for render delay
+[2024-12-30 20:35:35] 20:35:35 (6464): Scaling content to paper using a scale of 1
+[2024-12-30 20:35:35] 20:35:35 (6464): Printing from browser to 'C:\Users\Saad\AppData\Local\Temp\57.tmp'
+[2024-12-30 20:35:35] 20:35:35 (740): Received browser print callback for path 'C:\Users\Saad\AppData\Local\Temp\57.tmp' (1)
+[2024-12-30 20:35:35] 20:35:35 (740): Print finished for browser 1(success: 1)
+[2024-12-30 20:35:35] 20:35:35 (740): Resolving job for browser 1 with 60564 bytes
+[2024-12-30 20:35:35] 20:35:35 (10352): Closing browser 1
+[2024-12-30 20:35:35] 20:35:35 (740): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+[2024-12-30 20:35:35] 20:35:35 (740): Destroying browser id 1, 0 remain
+[2024-12-30 20:35:35] 20:35:35 (740): Browser 1 closed for job 0
+[2024-12-30 20:35:35] 20:35:35 (740): Found job 0 in group 0 (of 1 groups)
+[2024-12-30 20:35:35] 20:35:35 (740): Job group 0 finished
+[2024-12-30 20:35:35] 20:35:35 (10148): [JRC]Storing new job result 0
+[2024-12-30 20:35:35] 20:35:35 (10148): Opening document from job result 0
+[2024-12-30 20:35:35] 20:35:35 (10148): [JRC]Releasing job result 0
+[2024-12-30 20:35:35] 20:35:35 (10148): PdfDocumentFactory created document 0000015DFEE13910 from 60564 bytes
+[2024-12-30 20:35:35] 20:35:35 (10148): Document opened from pointer
+[2024-12-30 20:35:35] 20:35:35 (10148): Storing new document 1
+[2024-12-30 20:35:35] Created document 1 from job result 0
+[2024-12-30 20:35:35] 20:35:35 (10148): Merging objects from page 0 of document 0000015DFEE13910 onto page 0 of document 0000015DFEE3BCE0
+[2024-12-30 20:35:35] 20:35:35 (10148): Merging objects from page 0 of document 0000015DFEE13910 onto page 1 of document 0000015DFEE3BCE0
+[2024-12-30 20:35:35] 20:35:35 (10148): Merging objects from page 0 of document 0000015DFEE13910 onto page 2 of document 0000015DFEE3BCE0
+[2024-12-30 20:35:35] 20:35:35 (10148): PdfDocumentFactory closed document 0000015DFEE13910
+[2024-12-30 20:35:35] 20:35:35 (10148): Erasing document 1
+[2024-12-30 20:35:35] Document 1 has 0 references remaining (-1)
+[2024-12-30 20:35:35] Retrieving binary data for document 4f31af42-4cff-4962-9495-272d91f915c7 with 0 signatures
+[2024-12-30 20:35:35] Error 0x01 while validating license key
+[2024-12-30 20:35:35] IronSoftware.Exceptions.LicensingException: Invalid license key detected. Check to see if the key string was copied correctly. IronPdf requires a valid trial or license key to be applied. To request a trial or see instructions on how to apply a License Key: https://ironpdf.com/licensing/?utm_source=errormsg
+
+(Error: 'Error 0x01 while validating license key')
+   at IronSoftware.Licenses.LicenseManager.AssertIsLicensed(ILicensedProduct product, String license)
+   at IronPdf.License.AssertLicense() in D:\a\1\src\IronPdf\Licensing\License.cs:line 110
+   at IronPdfEngine.IronPdfServiceHandler.Pdfium_GetBinaryData(IAsyncStreamReader`1 requestStream, IServerStreamWriter`1 responseStream, ServerCallContext context) in D:\a\1\src\IronPdfEngine\IronPdfServiceHandler.cs:line 218
+[2024-12-30 20:35:45] 20:35:45 (7148): PdfDocumentFactory created document 0000015DFEE14630 from 37804 bytes
+[2024-12-30 20:35:45] 20:35:45 (7148): Document opened from vector
+[2024-12-30 20:35:45] 20:35:45 (7148): Storing new document 2
+[2024-12-30 20:35:45] Document 2 has 1 references remaining (+1)
+[2024-12-30 20:35:45] In-memory object store fetching document 210f361b-4970-4101-9376-e93df8daac00
+[2024-12-30 20:35:45] In-memory object store fetching document 210f361b-4970-4101-9376-e93df8daac00
+[2024-12-30 20:35:45] 20:35:45 (14516): Generating pdf from html
+[2024-12-30 20:35:45] 20:35:45 (14516): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+Cookies len: 0
+
+[2024-12-30 20:35:45] 20:35:45 (14516): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0, GrayScale : 0
+WaitForType: RenderDelay, Timeout: 10000, NetworkIdle duration: 500, Num allowed inflight: 0, Html Query Str: 
+Scale: 1
+Page Size Type: Custom
+Custom Page Size: 215.9x279.4
+Actual Page Size: 215.9x279.4
+Page Margin Type: 2
+Margin Top: 0, Right: 0, Bottom: 0, Left: 0
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 20
+Max Header Height: 200, Max Footer Height : 200
+
+[2024-12-30 20:35:45] 20:35:45 (14516): Created new job group 1 for new document
+[2024-12-30 20:35:45] 20:35:45 (14516): Created job group 1
+[2024-12-30 20:35:45] 20:35:45 (14516): Queuing job 1
+[2024-12-30 20:35:45] 20:35:45 (14516): Checking for browser availability (0/30)
+[2024-12-30 20:35:45] 20:35:45 (14516): Creating new browser after waiting 0 seconds
+[2024-12-30 20:35:45] 20:35:45 (740): Created browser id 2, 1 exist
+[2024-12-30 20:35:45] 20:35:45 (740): Browser 2 created and ready for assignment
+[2024-12-30 20:35:45] 20:35:45 (740): Assigning job 1 to browser 2
+[2024-12-30 20:35:45] 20:35:45 (740): Processing job for html content on browser 2
+[2024-12-30 20:35:45] 20:35:45 (740): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=renderer --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data"'
+[2024-12-30 20:35:45] 20:35:45 (740): gpu_mode: '0'
+[2024-12-30 20:35:45] 20:35:45 (740): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=renderer --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data"'
+[2024-12-30 20:35:45] 20:35:45 (740): gpu_mode: '0'
+[2024-12-30 20:35:45] 20:35:45 (740): Browser 2 loading state changed to 1 for url ''
+[2024-12-30 20:35:45] 20:35:45 (1900): OnBeforeResourceLoad for [internal] on browser 2
+[2024-12-30 20:35:45] 20:35:45 (1900): Creating resource handler for scheme http using url [internal] on browser 2
+[2024-12-30 20:35:45] 20:35:45 (1900): Resource response for [internal]: OK (0)
+[2024-12-30 20:35:45] 20:35:45 (740): Browser 2 status: 
+[2024-12-30 20:35:45] 20:35:45 (1900): OnBeforeResourceLoad for file:///C:/Users/Saad/Pictures/ACP-A3P3.PNG on browser 2
+[2024-12-30 20:35:45] 20:35:45 (1900): Created custom resource handler stream for 'file:///C:/Users/Saad/Pictures/ACP-A3P3.PNG' using path 'C:/Users/Saad/Pictures/ACP-A3P3.PNG' and mime 'image/png'
+[2024-12-30 20:35:45] 20:35:45 (740): Received IPC message 'OnBrowserCreated' from Renderer process: 'OnBrowserCreated'
+[2024-12-30 20:35:45] 20:35:45 (740): Received message from render process with 0 bytes
+[2024-12-30 20:35:45] 20:35:45 (740): [IPAER] (Browser process) message received from upstream CEF: browserId=2, message name=OnBrowserCreated
+[2024-12-30 20:35:45] 20:35:45 (1900): Resource response for file:///C:/Users/Saad/Pictures/ACP-A3P3.PNG: OK (0)
+[2024-12-30 20:35:45] 20:35:45 (740): Browser 2 loading state changed to 0 for url '[internal]'
+[2024-12-30 20:35:45] 20:35:45 (740): Frame loaded for job 1 on browser 2
+[2024-12-30 20:35:45] 20:35:45 (740): Found job 1 in group 1 (of 1 groups)
+[2024-12-30 20:35:45] 20:35:45 (740): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 2
+[2024-12-30 20:35:45] 20:35:45 (740): Executing dev tools method 'Page.getLayoutMetrics' for browser 2
+[2024-12-30 20:35:45] 20:35:45 (740): Received dev tools message on browser 2: '{"id":3,"result":{}}' (size: 20)
+[2024-12-30 20:35:45] 20:35:45 (740): Finished dev tools method on browser 2 (message ID: 3)
+[2024-12-30 20:35:45] 20:35:45 (740): Received dev tools message on browser 2: '{"id":4,"result":{"layoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"visualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"contentSize":{"x":0,"y":0,"width":1024,"height":1280},"cssLayoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"cssVisualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"cssContentSize":{"x":0,"y":0,"width":1024,"height":1280}}}' (size: 536)
+[2024-12-30 20:35:45] 20:35:45 (740): Finished dev tools method on browser 2 (message ID: 4)
+[2024-12-30 20:35:45] 20:35:45 (740): Sending DOM-visit process message for browser 2 (job ID: 1)
+[2024-12-30 20:35:45] 20:35:45 (740): Received IPC message 'OnDomVisited' from Renderer process: 'OnDomVisited'
+[2024-12-30 20:35:45] 20:35:45 (740): Received message from render process with 56 bytes
+[2024-12-30 20:35:45] 20:35:45 (740): Processed html for browser 2
+[2024-12-30 20:35:45] 20:35:45 (740): [IPAER] (Browser process) message received from upstream CEF: browserId=2, message name=OnDomVisited
+[2024-12-30 20:35:45] 20:35:45 (15780): Apply render delay for : 20 ms
+[2024-12-30 20:35:45] 20:35:45 (15780): Finished waiting for render delay
+[2024-12-30 20:35:45] 20:35:45 (15780): Scaling content to paper using a scale of 1
+[2024-12-30 20:35:45] 20:35:45 (15780): Printing from browser to 'C:\Users\Saad\AppData\Local\Temp\2A46.tmp'
+[2024-12-30 20:35:45] 20:35:45 (740): Received browser print callback for path 'C:\Users\Saad\AppData\Local\Temp\2A46.tmp' (1)
+[2024-12-30 20:35:45] 20:35:45 (740): Print finished for browser 2(success: 1)
+[2024-12-30 20:35:45] 20:35:45 (740): Resolving job for browser 2 with 60564 bytes
+[2024-12-30 20:35:45] 20:35:45 (10352): Closing browser 2
+[2024-12-30 20:35:45] 20:35:45 (740): Received dev tools message on browser 2: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+[2024-12-30 20:35:45] 20:35:45 (740): Destroying browser id 2, 0 remain
+[2024-12-30 20:35:45] 20:35:45 (740): Browser 2 closed for job 1
+[2024-12-30 20:35:45] 20:35:45 (740): Found job 1 in group 1 (of 1 groups)
+[2024-12-30 20:35:45] 20:35:45 (740): Job group 1 finished
+[2024-12-30 20:35:45] 20:35:45 (14516): [JRC]Storing new job result 1
+[2024-12-30 20:35:45] 20:35:45 (14516): Opening document from job result 1
+[2024-12-30 20:35:45] 20:35:45 (14516): [JRC]Releasing job result 1
+[2024-12-30 20:35:45] 20:35:45 (14516): PdfDocumentFactory created document 0000015DFEE14010 from 60564 bytes
+[2024-12-30 20:35:45] 20:35:45 (14516): Document opened from pointer
+[2024-12-30 20:35:45] 20:35:45 (14516): Storing new document 3
+[2024-12-30 20:35:45] Created document 3 from job result 1
+[2024-12-30 20:35:45] 20:35:45 (14516): Merging objects from page 0 of document 0000015DFEE14010 onto page 0 of document 0000015DFEE14630
+[2024-12-30 20:35:45] 20:35:45 (14516): Merging objects from page 0 of document 0000015DFEE14010 onto page 1 of document 0000015DFEE14630
+[2024-12-30 20:35:45] 20:35:45 (14516): Merging objects from page 0 of document 0000015DFEE14010 onto page 2 of document 0000015DFEE14630
+[2024-12-30 20:35:45] 20:35:45 (14516): PdfDocumentFactory closed document 0000015DFEE14010
+[2024-12-30 20:35:45] 20:35:45 (14516): Erasing document 3
+[2024-12-30 20:35:45] Document 3 has 0 references remaining (-1)
+[2024-12-30 20:35:45] Retrieving binary data for document 210f361b-4970-4101-9376-e93df8daac00 with 0 signatures
+[2024-12-30 20:35:45] Error 0x01 while validating license key
+[2024-12-30 20:35:45] IronSoftware.Exceptions.LicensingException: Invalid license key detected. Check to see if the key string was copied correctly. IronPdf requires a valid trial or license key to be applied. To request a trial or see instructions on how to apply a License Key: https://ironpdf.com/licensing/?utm_source=errormsg
+
+(Error: 'Error 0x01 while validating license key')
+   at IronSoftware.Licenses.LicenseManager.AssertIsLicensed(ILicensedProduct product, String license)
+   at IronPdf.License.AssertLicense() in D:\a\1\src\IronPdf\Licensing\License.cs:line 110
+   at IronPdfEngine.IronPdfServiceHandler.Pdfium_GetBinaryData(IAsyncStreamReader`1 requestStream, IServerStreamWriter`1 responseStream, ServerCallContext context) in D:\a\1\src\IronPdfEngine\IronPdfServiceHandler.cs:line 218
+[2024-12-30 20:36:10] ---------- Microsoft Windows NT 10.0.19045.0 (C:\Users\Saad\IdeaProjects\ACP_Project\ironpdfengine.log) ----------
+[2024-12-30 20:36:10] Initializing 'AppAnalytics' module
+[2024-12-30 20:36:10] Error 0x01 while validating license key
+[2024-12-30 20:36:10] Failed to create LicenseKey, returning null. Exception occurred:'Error 0x01 while validating license key'
+[2024-12-30 20:36:10] Using deployment directory 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:36:10] Creating deployment candidates using root path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\' (download: False)
+[2024-12-30 20:36:10] Creating folder deployments for win-x64
+[2024-12-30 20:36:10] Creating embedded deployments for win-x64
+[2024-12-30 20:36:10] Successfully located 'IronPdfInterop' at 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:36:10] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-12-30 20:36:10] Using deployment instructions for 'default' v
+[2024-12-30 20:36:10] Attempting to load Windows library 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronPdfInterop.dll'
+[2024-12-30 20:36:10] Attempting to load Windows library 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronPdfInterop.dll'
+[2024-12-30 20:36:10] Successfully loaded native library from 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronPdfInterop.dll'
+[2024-12-30 20:36:10] Successfully loaded 'IronPdfInterop' version '2024.11.0.6' from 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:36:10] Successfully deployed 'Pdfium' using 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:36:10] Creating new job collection resource
+[2024-12-30 20:36:10] Creating new document collection resource
+[2024-12-30 20:36:10] Successfully initialized local pdf client
+[2024-12-30 20:36:10] Initializing local Chrome client...
+[2024-12-30 20:36:10] Using deployment directory 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:36:10] Creating deployment candidates using root path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\' (download: False)
+[2024-12-30 20:36:10] Creating folder deployments for win-x64
+[2024-12-30 20:36:10] Creating embedded deployments for win-x64
+[2024-12-30 20:36:10] Successfully located 'IronInterop' at 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:36:10] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-12-30 20:36:10] Using deployment instructions for 'default' v
+[2024-12-30 20:36:10] Attempting to load Windows library 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronInterop.dll'
+[2024-12-30 20:36:10] Attempting to load Windows library 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronInterop.dll'
+[2024-12-30 20:36:10] Successfully loaded native library from 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronInterop.dll'
+[2024-12-30 20:36:10] Successfully loaded 'IronInterop' version '2024.11.0.6' from 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:36:10] Successfully deployed 'Chrome' using 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:36:10] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngineConsole, Thread: , Path: C:\Users\Saad\IdeaProjects\ACP_Project
+[2024-12-30 20:36:10] 20:36:10 (10484): ~ Chrome renderer v2024.11.0.6~
+[2024-12-30 20:36:10] 20:36:10 (10484): Debugging enabled for Chrome renderer using log path 'IronSoftware.ChromeRenderer.log'
+[2024-12-30 20:36:10] 20:36:10 (10484): register JobManager as publisher for event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-12-30 20:36:10] 20:36:10 (10484): [EventRegistry] Register event_readyToInitializeNetworkEventsDevToolsHandler for a publisher
+[2024-12-30 20:36:10] 20:36:10 (10484): IsSingleProcess: 0
+[2024-12-30 20:36:10] 20:36:10 (10484): Creating Cef proxy controller
+[2024-12-30 20:36:10] 20:36:10 (10484): Creating Cef interface
+[2024-12-30 20:36:10] 20:36:10 (10484): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-12-30 20:36:10] 20:36:10 (10484): JobManager subscribes a new sub, eventStr=event_readyToInitializeNetworkEventsDevToolsHandler
+[2024-12-30 20:36:10] 20:36:10 (10484): Destroying Cef proxy event handler
+[2024-12-30 20:36:10] 20:36:10 (10484): Initializing Cef proxy controller
+[2024-12-30 20:36:10] 20:36:10 (10484): Using subprocess path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe'
+[2024-12-30 20:36:10] 20:36:10 (10484): Using framework path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:36:10] 20:36:10 (10484): Using locales path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales'
+[2024-12-30 20:36:10] 20:36:10 (10484): Using resources path 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\'
+[2024-12-30 20:36:10] 20:36:10 (10484): Using root_cache_path path 'C:\Users\Saad\AppData\Local\Temp\ironceftmpd8e17dd3-63ea-4bf5-9364-0000b3053b24'
+[2024-12-30 20:36:10] 20:36:10 (10484): Main process 'C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronPdfEngineConsole.exe'
+[2024-12-30 20:36:10] 20:36:10 (10484): gpu_mode: '0'
+[2024-12-30 20:36:10] 20:36:10 (15348): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --enable-gpu-service-logging --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --lang=en-US --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data" /prefetch:2'
+[2024-12-30 20:36:10] 20:36:10 (15348): gpu_mode: '0'
+[2024-12-30 20:36:10] 20:36:10 (10484): Cef initialization succeeded
+[2024-12-30 20:36:10] 20:36:10 (15348): Cef context initialized
+[2024-12-30 20:36:10] Successfully initialized local Chrome client
+[2024-12-30 20:36:10] 20:36:10 (15348): Registering custom scheme for rendering raw html
+[2024-12-30 20:36:10] 20:36:10 (15348): Successfully registered custom scheme
+[2024-12-30 20:36:10] 20:36:10 (15348): Cef engine initialization complete
+[2024-12-30 20:36:10] 20:36:10 (15348): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --lang=en-US --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data" /prefetch:8'
+[2024-12-30 20:36:10] 20:36:10 (15348): gpu_mode: '0'
+[2024-12-30 20:36:12] 20:36:12 (12668): PdfDocumentFactory created document 0000028E6CBFD1D0 from 37804 bytes
+[2024-12-30 20:36:12] 20:36:12 (12668): Document opened from vector
+[2024-12-30 20:36:12] 20:36:12 (12668): Storing new document 0
+[2024-12-30 20:36:12] Document 0 has 1 references remaining (+1)
+[2024-12-30 20:36:13] In-memory object store fetching document 9ee4c057-b4c7-4740-a1c8-efc0860c618b
+[2024-12-30 20:36:13] In-memory object store fetching document 9ee4c057-b4c7-4740-a1c8-efc0860c618b
+[2024-12-30 20:36:13] 20:36:13 (2044): Generating pdf from html
+[2024-12-30 20:36:13] 20:36:13 (2044): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+Cookies len: 0
+
+[2024-12-30 20:36:13] 20:36:13 (2044): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0, GrayScale : 0
+WaitForType: RenderDelay, Timeout: 10000, NetworkIdle duration: 500, Num allowed inflight: 0, Html Query Str: 
+Scale: 1
+Page Size Type: Custom
+Custom Page Size: 215.9x279.4
+Actual Page Size: 215.9x279.4
+Page Margin Type: 2
+Margin Top: 0, Right: 0, Bottom: 0, Left: 0
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 20
+Max Header Height: 200, Max Footer Height : 200
+
+[2024-12-30 20:36:13] 20:36:13 (2044): Created new job group 0 for new document
+[2024-12-30 20:36:13] 20:36:13 (2044): Created job group 0
+[2024-12-30 20:36:13] 20:36:13 (2044): Queuing job 0
+[2024-12-30 20:36:13] 20:36:13 (2044): Checking for browser availability (0/30)
+[2024-12-30 20:36:13] 20:36:13 (2044): Creating new browser after waiting 0 seconds
+[2024-12-30 20:36:13] 20:36:13 (15348): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --lang=en-US --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data" /prefetch:8'
+[2024-12-30 20:36:13] 20:36:13 (15348): gpu_mode: '0'
+[2024-12-30 20:36:13] 20:36:13 (15348): Created browser id 1, 1 exist
+[2024-12-30 20:36:13] 20:36:13 (15348): Browser 1 created and ready for assignment
+[2024-12-30 20:36:13] 20:36:13 (15348): Assigning job 0 to browser 1
+[2024-12-30 20:36:13] 20:36:13 (15348): Processing job for html content on browser 1
+[2024-12-30 20:36:13] 20:36:13 (15348): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=renderer --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data"'
+[2024-12-30 20:36:13] 20:36:13 (15348): gpu_mode: '0'
+[2024-12-30 20:36:13] 20:36:13 (15348): Launching child process '"C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\IronCefSubprocess.exe" --type=renderer --locales-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64\\locales" --log-severity=verbose --resources-dir-path="C:\Users\Saad\IdeaProjects\ACP_Project\IronPdfEngine.2024.11.4.Windows.x64" --user-data-dir="C:\Users\Saad\AppData\Local\CEF\User Data"'
+[2024-12-30 20:36:13] 20:36:13 (15348): gpu_mode: '0'
+[2024-12-30 20:36:13] 20:36:13 (15348): Browser 1 loading state changed to 1 for url ''
+[2024-12-30 20:36:13] 20:36:13 (15980): OnBeforeResourceLoad for [internal] on browser 1
+[2024-12-30 20:36:13] 20:36:13 (15980): Creating resource handler for scheme http using url [internal] on browser 1
+[2024-12-30 20:36:13] 20:36:13 (15980): Resource response for [internal]: OK (0)
+[2024-12-30 20:36:13] 20:36:13 (15348): Browser 1 status: 
+[2024-12-30 20:36:13] 20:36:13 (15980): OnBeforeResourceLoad for file:///C:/Users/Saad/Pictures/ACP-A3P3.PNG on browser 1
+[2024-12-30 20:36:13] 20:36:13 (15980): Created custom resource handler stream for 'file:///C:/Users/Saad/Pictures/ACP-A3P3.PNG' using path 'C:/Users/Saad/Pictures/ACP-A3P3.PNG' and mime 'image/png'
+[2024-12-30 20:36:13] 20:36:13 (15348): Received IPC message 'OnBrowserCreated' from Renderer process: 'OnBrowserCreated'
+[2024-12-30 20:36:13] 20:36:13 (15980): Resource response for file:///C:/Users/Saad/Pictures/ACP-A3P3.PNG: OK (0)
+[2024-12-30 20:36:13] 20:36:13 (15348): Received message from render process with 0 bytes
+[2024-12-30 20:36:13] 20:36:13 (15348): [IPAER] (Browser process) message received from upstream CEF: browserId=1, message name=OnBrowserCreated
+[2024-12-30 20:36:13] 20:36:13 (15348): Browser 1 loading state changed to 0 for url '[internal]'
+[2024-12-30 20:36:13] 20:36:13 (15348): Frame loaded for job 0 on browser 1
+[2024-12-30 20:36:13] 20:36:13 (15348): Found job 0 in group 0 (of 1 groups)
+[2024-12-30 20:36:13] 20:36:13 (15348): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+[2024-12-30 20:36:13] 20:36:13 (15348): Executing dev tools method 'Page.getLayoutMetrics' for browser 1
+[2024-12-30 20:36:13] 20:36:13 (15348): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+[2024-12-30 20:36:13] 20:36:13 (15348): Finished dev tools method on browser 1 (message ID: 1)
+[2024-12-30 20:36:13] 20:36:13 (15348): Received dev tools message on browser 1: '{"id":2,"result":{"layoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"visualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"contentSize":{"x":0,"y":0,"width":1024,"height":1280},"cssLayoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"cssVisualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"cssContentSize":{"x":0,"y":0,"width":1024,"height":1280}}}' (size: 536)
+[2024-12-30 20:36:13] 20:36:13 (15348): Finished dev tools method on browser 1 (message ID: 2)
+[2024-12-30 20:36:13] 20:36:13 (15348): Sending DOM-visit process message for browser 1 (job ID: 0)
+[2024-12-30 20:36:13] 20:36:13 (15348): Received IPC message 'OnDomVisited' from Renderer process: 'OnDomVisited'
+[2024-12-30 20:36:13] 20:36:13 (15348): Received message from render process with 56 bytes
+[2024-12-30 20:36:13] 20:36:13 (15348): Processed html for browser 1
+[2024-12-30 20:36:13] 20:36:13 (15348): [IPAER] (Browser process) message received from upstream CEF: browserId=1, message name=OnDomVisited
+[2024-12-30 20:36:13] 20:36:13 (12696): Apply render delay for : 20 ms
+[2024-12-30 20:36:13] 20:36:13 (12696): Finished waiting for render delay
+[2024-12-30 20:36:13] 20:36:13 (12696): Scaling content to paper using a scale of 1
+[2024-12-30 20:36:13] 20:36:13 (12696): Printing from browser to 'C:\Users\Saad\AppData\Local\Temp\95F0.tmp'
+[2024-12-30 20:36:13] 20:36:13 (15348): Received browser print callback for path 'C:\Users\Saad\AppData\Local\Temp\95F0.tmp' (1)
+[2024-12-30 20:36:13] 20:36:13 (15348): Print finished for browser 1(success: 1)
+[2024-12-30 20:36:13] 20:36:13 (15348): Resolving job for browser 1 with 60564 bytes
+[2024-12-30 20:36:13] 20:36:13 (4864): Closing browser 1
+[2024-12-30 20:36:13] 20:36:13 (15348): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+[2024-12-30 20:36:13] 20:36:13 (15348): Destroying browser id 1, 0 remain
+[2024-12-30 20:36:13] 20:36:13 (15348): Browser 1 closed for job 0
+[2024-12-30 20:36:13] 20:36:13 (15348): Found job 0 in group 0 (of 1 groups)
+[2024-12-30 20:36:13] 20:36:13 (15348): Job group 0 finished
+[2024-12-30 20:36:13] 20:36:13 (2044): [JRC]Storing new job result 0
+[2024-12-30 20:36:13] 20:36:13 (2044): Opening document from job result 0
+[2024-12-30 20:36:13] 20:36:13 (2044): [JRC]Releasing job result 0
+[2024-12-30 20:36:13] 20:36:13 (2044): PdfDocumentFactory created document 0000028E6CBC8890 from 60564 bytes
+[2024-12-30 20:36:13] 20:36:13 (2044): Document opened from pointer
+[2024-12-30 20:36:13] 20:36:13 (2044): Storing new document 1
+[2024-12-30 20:36:13] Created document 1 from job result 0
+[2024-12-30 20:36:13] 20:36:13 (2044): Merging objects from page 0 of document 0000028E6CBC8890 onto page 0 of document 0000028E6CBFD1D0
+[2024-12-30 20:36:13] 20:36:13 (2044): Merging objects from page 0 of document 0000028E6CBC8890 onto page 1 of document 0000028E6CBFD1D0
+[2024-12-30 20:36:13] 20:36:13 (2044): Merging objects from page 0 of document 0000028E6CBC8890 onto page 2 of document 0000028E6CBFD1D0
+[2024-12-30 20:36:13] 20:36:13 (2044): PdfDocumentFactory closed document 0000028E6CBC8890
+[2024-12-30 20:36:13] 20:36:13 (2044): Erasing document 1
+[2024-12-30 20:36:13] Document 1 has 0 references remaining (-1)
+[2024-12-30 20:36:14] Retrieving binary data for document 9ee4c057-b4c7-4740-a1c8-efc0860c618b with 0 signatures
+[2024-12-30 20:36:14] Error 0x01 while validating license key
+[2024-12-30 20:36:14] IronSoftware.Exceptions.LicensingException: Invalid license key detected. Check to see if the key string was copied correctly. IronPdf requires a valid trial or license key to be applied. To request a trial or see instructions on how to apply a License Key: https://ironpdf.com/licensing/?utm_source=errormsg
+
+(Error: 'Error 0x01 while validating license key')
+   at IronSoftware.Licenses.LicenseManager.AssertIsLicensed(ILicensedProduct product, String license)
+   at IronPdf.License.AssertLicense() in D:\a\1\src\IronPdf\Licensing\License.cs:line 110
+   at IronPdfEngine.IronPdfServiceHandler.Pdfium_GetBinaryData(IAsyncStreamReader`1 requestStream, IServerStreamWriter`1 responseStream, ServerCallContext context) in D:\a\1\src\IronPdfEngine\IronPdfServiceHandler.cs:line 218
