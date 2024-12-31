@@ -11,7 +11,6 @@ public class jpegFile extends File {
         super("Image","jpeg");
         this.genericActions = EnumSet.allOf(GenericActions.class);
         this.specificActions = EnumSet.noneOf(SpecificActions.class);
-        this.specificActions.add(SpecificActions.REDUCE_IMAGE_SIZE);
         this.specificActions.add(SpecificActions.CONVERT_TO_PDF);
         this.specificActions.add(SpecificActions.CONVERT_TO_PNG);
         this.specificActions.add(SpecificActions.CONVERT_TO_JPG);

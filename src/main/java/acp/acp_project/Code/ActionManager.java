@@ -443,22 +443,33 @@ public class ActionManager {
         String destinationPath = action.getOutputFolder();
         ensureDirectoryExists(destinationPath);
 
+        var imageConverter = new ImageWatermark();
+        int processedCount = 0;
+        int totalFiles = files.size();
 
         for (File file : files) {
             String fileName = file.getName().toLowerCase();
             try {
-               if (fileName.endsWith(".pdf")) {
-                    response = pdfHelper.addWatermarkToPDF(file,watermarkImagePath,destinationPath);
-
+                if (fileName.endsWith(".pdf")) {
+                    response = pdfHelper.addWatermarkToPDF(file, watermarkImagePath, destinationPath);
+                } else if (fileName.endsWith(".jpg") || fileName.endsWith(".jpeg") || fileName.endsWith(".png")) {
+                    response = imageConverter.addWatermarkToImage(file.getAbsolutePath(), watermarkImagePath, destinationPath);
+                } else {
+                    continue; // Skip unsupported file types
                 }
 
+                if (response.success) {
+                    processedCount++;
+                } else {
+                    System.err.println("Error processing file: " + fileName + " - " + response.Message);
+                }
             } catch (Exception e) {
-                response.success = false;
-                response.Message = "Error processing file: " + file.getName() + ". " + e.getMessage();
-                return response;
+                System.err.println("Error processing file: " + fileName + " - " + e.getMessage());
             }
         }
 
+        response.success = true;
+        response.Message = processedCount + " out of " + totalFiles + " files processed successfully.";
         return response;
     }
 
@@ -578,25 +589,36 @@ public class ActionManager {
         String printQuality = action.getActionParameter("Print Quality");
         String fileType = action.selectedFileAndAction.selectedFileType;
 
-        if(fileType.equals("docx")){
+        ImageConverter imageConverter = new ImageConverter();
+        int processedCount = 0;
 
-            response = wordHelper.printWordDocuments(files.toArray(new File[0]));
+        for (File file : files) {
+            String fileName = file.getName().toLowerCase();
+            try {
+                if (fileType.equals("docx") || fileName.endsWith(".docx")) {
+                    response = wordHelper.printWordDocuments(new File[]{file});
+                } else if (fileType.equals("pdf") || fileName.endsWith(".pdf")) {
+                    response = pdfHelper.printPDFs(Arrays.asList(file));
+                } else if (fileType.equals("txt") || fileName.endsWith(".txt")) {
+                    response = textHelper.printTextDocuments(Arrays.asList(file));
+                } else if (fileName.endsWith(".jpg") || fileName.endsWith(".jpeg") || fileName.endsWith(".png")) {
+                    response = imageConverter.printImage(file.getAbsolutePath(), printQuality);
+                } else {
+                    continue; // Skip unsupported file types
+                }
 
-        }else if(fileType.equals("pdf")){
-
-            response = pdfHelper.printPDFs(files);
-
-
-        } else if (fileType.equals("txt")) {
-
-            response = textHelper.printTextDocuments(files);
-
-        }else{
-
-            response.Message = "not supported";
-
+                if (response.success) {
+                    processedCount++;
+                } else {
+                    System.err.println("Error printing file: " + fileName + " - " + response.Message);
+                }
+            } catch (Exception e) {
+                System.err.println("Error printing file: " + fileName + " - " + e.getMessage());
+            }
         }
 
+        response.success = true;
+        response.Message = processedCount + " out of " + files.size() + " files printed successfully.";
         return response;
     }
 
