@@ -150,7 +150,6 @@ public class Utility {
             case "jpg":
                 return fileName.toLowerCase();
             case "png":
-                return fileName.toLowerCase();
             case "zip":
                 return fileName.toLowerCase();
             case "word":

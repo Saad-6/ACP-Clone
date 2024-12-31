@@ -34,6 +34,7 @@ public class ActionManager {
     TextHelper textHelper = new TextHelper();
     ZipHelper zipHelper = new ZipHelper();
     PDFHelper pdfHelper = new PDFHelper();
+    ImageConverter imageConverter = new ImageConverter();
     Mover mover = new Mover();
     List<File> files = new ArrayList<>();
 
@@ -132,8 +133,9 @@ public class ActionManager {
             case CONVERT_TO_PNG:
                 return convertToPng(action);
             case CONVERT_TO_JPEG:
-            case CONVERT_TO_JPG:
                 return convertToJpeg(action);
+            case CONVERT_TO_JPG:
+                return convertToJpg(action);
             case REDUCE_IMAGE_SIZE:
                 return reduceImageSize(action);
             case REDUCE_VIDEO_SIZE:
@@ -448,10 +450,8 @@ public class ActionManager {
                if (fileName.endsWith(".pdf")) {
                     response = pdfHelper.addWatermarkToPDF(file,watermarkImagePath,destinationPath);
 
-                } else {
-                    // Skip unsupported file types
-                    continue;
                 }
+
             } catch (Exception e) {
                 response.success = false;
                 response.Message = "Error processing file: " + file.getName() + ". " + e.getMessage();
@@ -479,14 +479,80 @@ public class ActionManager {
     }
 
     private Response convertToPng(Action action) {
-        // Implement convert to PNG logic
-        response.Message = "Convert to PNG not implemented yet.";
+        String outputFolderPath = action.outputFolderName;
+        ensureDirectoryExists(outputFolderPath);
+        ImageConverter converter = new ImageConverter();
+        int convertedCount = 0;
+        int totalFiles = files.size();
+
+        for (File file : files) {
+            String inputPath = file.getAbsolutePath();
+            String fileName = file.getName();
+            String outputFileName = fileName.substring(0, fileName.lastIndexOf(".")) + ".png";
+            String outputPath = new File(outputFolderPath, outputFileName).getAbsolutePath();
+
+            Response conversionResponse = converter.convertImage(inputPath, outputPath, "png");
+            if (conversionResponse.success) {
+                convertedCount++;
+            } else {
+                System.err.println("Error processing file: " + file.getName() + " - " + conversionResponse.Message);
+            }
+        }
+
+        response.success = true;
+        response.Message = convertedCount + " out of " + totalFiles + " images converted to PNG.";
         return response;
     }
 
     private Response convertToJpeg(Action action) {
-        // Implement convert to JPEG logic
-        response.Message = "Convert to JPEG not implemented yet.";
+        String outputFolderPath = action.outputFolderName;
+        ensureDirectoryExists(outputFolderPath);
+        ImageConverter converter = new ImageConverter();
+        int convertedCount = 0;
+        int totalFiles = files.size();
+
+        for (File file : files) {
+            String inputPath = file.getAbsolutePath();
+            String fileName = file.getName();
+            String outputFileName = fileName.substring(0, fileName.lastIndexOf(".")) + ".jpeg";
+            String outputPath = new File(outputFolderPath, outputFileName).getAbsolutePath();
+
+            Response conversionResponse = converter.convertImage(inputPath, outputPath, "jpeg");
+            if (conversionResponse.success) {
+                convertedCount++;
+            } else {
+                System.err.println("Error processing file: " + file.getName() + " - " + conversionResponse.Message);
+            }
+        }
+
+        response.success = true;
+        response.Message = convertedCount + " out of " + totalFiles + " images converted to JPEG.";
+        return response;
+    }
+
+    private Response convertToJpg(Action action) {
+        String outputFolderPath = action.outputFolderName;
+        ensureDirectoryExists(outputFolderPath);
+        ImageConverter converter = new ImageConverter();
+        int convertedCount = 0;
+        int totalFiles = files.size();
+
+        for (File file : files) {
+            String inputPath = file.getAbsolutePath();
+            String fileName = file.getName();
+            String outputFileName = fileName.substring(0, fileName.lastIndexOf(".")) + ".jpg";
+            String outputPath = new File(outputFolderPath, outputFileName).getAbsolutePath();
+
+            Response conversionResponse = converter.convertImage(inputPath, outputPath, "jpg");
+            if (conversionResponse.success) {
+                convertedCount++;
+            } else {
+                System.err.println("Error processing file: " + file.getName() + " - " + conversionResponse.Message);
+            }
+        }
+
+        response.success = true;
+        response.Message = convertedCount + " out of " + totalFiles + " images converted to JPG.";
         return response;
     }
 
